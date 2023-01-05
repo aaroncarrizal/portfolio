@@ -1,0 +1,7 @@
+#bg1{
+    background-image: url("../../public/background1.png");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
