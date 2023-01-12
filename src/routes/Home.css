@@ -1,7 +1,37 @@
 #bg1{
     background-image: url("../../public/background1.png");
-    height: 80vh;
+    min-height: 80vh;
+    min-width: 99vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#bg2{
+    min-height: 100vh;
+    min-width: 99vw;
+}
+
+#bg3{
+    background-color: cadetblue;
+    min-height: 100vh;
+    min-width: 99vw;
+}
+
+#bg4{
+    background-color: antiquewhite;
+    min-height: 100vh;
+    min-width: 99vw;
+}
+
+.background{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+.mt-6{
+    margin-top: 20vh;
+}
+
+.pt-6{
+    padding-top: 20vh;
 }
